@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Blinker";
+}
+
+body {
+    background-color: #eeeeee;
+    color: #0e1217;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #c4c4c4;
+}
+
+p {
+    color: #0e1217;
+}
+
+.diariamente {
+    color: white;
+}
+
