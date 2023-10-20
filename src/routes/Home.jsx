@@ -10,7 +10,7 @@ const Home = () => {
   const getPosts = async(e) => {
     let qtd = (e || 5)
     try {
-      const response = await axios.get(`http://servicodados.ibge.gov.br/api/v3/noticias/?qtd=${(qtd)}`);
+      const response = await axios.get(`https://servicodados.ibge.gov.br/api/v3/noticias/?qtd=${(qtd)}`);
       const data = [response.data];
       const data2 = data[0]
       const data3 = data2.items
